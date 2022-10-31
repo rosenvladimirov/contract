@@ -1,2 +1,2 @@
 * Carlos Dauden <carlos.dauden@tecnativa.com>
-* Bogdan Stanciu <bogdanovidiu.stanciu@gmail.com>
+* Thomas Binsfeld <thomas.binsfeld@acsone.eu>

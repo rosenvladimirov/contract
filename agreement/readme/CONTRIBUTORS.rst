@@ -1,5 +1,3 @@
-* Patrick Wilson <pwilson@pavlovmedia.com>
-* Bhavesh Odedra <bodedra@opensourceintegrators.com>
-* Wolfgang Hall <whall@opensourceintegrators.com>
-* Maxime Chambreuil <mchambreuil@opensourceintegrators.com>
-* Sandip Mangukiya <smangukiya@opensourceintegrators.com>
+* Alexis de Lattre <alexis.delattre@akretion.com>
+* Yves Goldberg <yves@ygol.com>
+* Alexandre Fayolle <alexandre.fayolle@camptocamp.com>

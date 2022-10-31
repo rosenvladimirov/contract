@@ -4,13 +4,13 @@
 {
     'name': 'Agreement - Stock',
     'summary': 'Link picking to an agreement',
-    'version': '11.0.0.0.1',
+    'version': '11.0.1.0.1',
     'category': 'Contract',
     'author': 'Open Source Integrators, '
               'Odoo Community Association (OCA)',
-    'website': 'https://github.com/OCA/contract',
+    'website': 'https://github.com/rosenvladimirov/contract',
     'depends': [
-        'agreement',
+        'agreement_serviceprofile',
         'stock',
     ],
     'data': [
@@ -19,9 +19,4 @@
     ],
     'installable': True,
     'license': 'AGPL-3',
-    'development_status': 'Beta',
-    'maintainers': [
-        'smangukiya',
-        'max3903',
-    ],
 }

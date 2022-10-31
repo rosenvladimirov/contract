@@ -6,7 +6,7 @@
     "version": "11.0.1.0.0",
     "author": "Tecnativa, "
               "Odoo Community Association (OCA)",
-    "website": "https://github.com/OCA/contract",
+    "website": "https://github.com/rosenvladimirov/contract",
     "category": "Contract Management",
     "license": "AGPL-3",
     "depends": [

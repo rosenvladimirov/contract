@@ -4,66 +4,81 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 11.0\n"
+"Project-Id-Version: Odoo Server 12.0\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2019-02-22 14:50+0000\n"
-"Last-Translator: Maria Sparenberg <maria.sparenberg@gmx.net>\n"
+"Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.4\n"
 
 #. module: agreement_sale
-#: model:ir.model.fields,field_description:agreement_sale.field_sale_order_agreement_id
-#: model:ir.ui.view,arch_db:agreement_sale.product_template_form_view
-msgid "Agreement"
-msgstr "Vereinbarung"
-
-#. module: agreement_sale
-#: model:ir.model.fields,field_description:agreement_sale.field_sale_order_agreement_template_id
-msgid "Agreement Template"
-msgstr "Vereinbarungsvorlage"
-
-#. module: agreement_sale
-#: model:ir.model.fields,field_description:agreement_sale.field_product_product_is_serviceprofile
-#: model:ir.model.fields,field_description:agreement_sale.field_product_template_is_serviceprofile
-msgid "Create a Service Profile"
-msgstr "Dienstleistungsprofil erstellen"
-
-#. module: agreement_sale
-#: model:ir.model.fields,help:agreement_sale.field_product_product_is_serviceprofile
-#: model:ir.model.fields,help:agreement_sale.field_product_template_is_serviceprofile
-msgid ""
-"If True, this product will create a service profile on the\n"
-"         agreement when the sales order is confirmed."
+#: model:ir.model.fields,field_description:agreement_sale.field_agreement__sale_count
+msgid "# of Sale Orders"
 msgstr ""
-"Wenn der Haken gesetzt ist, wird dieses Produkt ein Dienstleistungsprofil in "
-"der Vereinbarung erzeugen, sobald der Verkaufsauftrag bestätigt wird."
-
-#. module: agreement_sale
-#: model:ir.model,name:agreement_sale.model_product_template
-msgid "Product Template"
-msgstr "Produktvorlage"
-
-#. module: agreement_sale
-#: model:ir.model,name:agreement_sale.model_sale_order
-msgid "Quotation"
-msgstr "Angebot"
-
-#. module: agreement_sale
-#: model:ir.ui.view,arch_db:agreement_sale.agreement_sale_form_view
-msgid "Sales"
-msgstr "Verkauf"
-
-#. module: agreement_sale
-#: model:ir.model.fields,field_description:agreement_sale.field_agreement_sale_id
-msgid "Sales Order"
-msgstr "Verkaufsauftrag"
 
 #. module: agreement_sale
 #: model:ir.model,name:agreement_sale.model_agreement
-msgid "agreement"
-msgstr "Vereinbarung"
+#: model:ir.model.fields,field_description:agreement_sale.field_sale_order__agreement_id
+#: model_terms:ir.ui.view,arch_db:agreement_sale.view_sales_order_filter
+msgid "Agreement"
+msgstr ""
+
+#. module: agreement_sale
+#: model:ir.model.fields,field_description:agreement_sale.field_sale_order__agreement_type_id
+msgid "Agreement Type"
+msgstr ""
+
+#. module: agreement_sale
+#: model:ir.ui.menu,name:agreement_sale.sale_agreement_type_menu
+msgid "Agreement Types"
+msgstr ""
+
+#. module: agreement_sale
+#: model_terms:ir.ui.view,arch_db:agreement_sale.res_config_settings_view_form
+msgid "Agreement types"
+msgstr ""
+
+#. module: agreement_sale
+#: model:ir.ui.menu,name:agreement_sale.sale_agreement_menu
+#: model_terms:ir.ui.view,arch_db:agreement_sale.res_config_settings_view_form
+msgid "Agreements"
+msgstr ""
+
+#. module: agreement_sale
+#: model:ir.model,name:agreement_sale.model_res_config_settings
+msgid "Config Settings"
+msgstr ""
+
+#. module: agreement_sale
+#: model_terms:ir.ui.view,arch_db:agreement_sale.res_config_settings_view_form
+msgid "Have a special kind of agreements which act as templates"
+msgstr ""
+
+#. module: agreement_sale
+#: model_terms:ir.ui.view,arch_db:agreement_sale.res_config_settings_view_form
+msgid "Manage agreements by types"
+msgstr ""
+
+#. module: agreement_sale
+#: model:ir.model,name:agreement_sale.model_sale_order
+msgid "Sale Order"
+msgstr ""
+
+#. module: agreement_sale
+#: model:ir.model.fields,field_description:agreement_sale.field_agreement__sale_ids
+#: model_terms:ir.ui.view,arch_db:agreement_sale.agreement_form
+msgid "Sale Orders"
+msgstr ""
+
+#. module: agreement_sale
+#: model:ir.model.fields,field_description:agreement_sale.field_res_config_settings__group_use_agreement_template
+msgid "Use agreement template"
+msgstr ""
+
+#. module: agreement_sale
+#: model:ir.model.fields,field_description:agreement_sale.field_res_config_settings__group_use_agreement_type
+msgid "Use agreement types"
+msgstr ""

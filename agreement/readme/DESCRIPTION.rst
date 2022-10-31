@@ -1,9 +1,14 @@
-This module allows you to manage agreements, letter of intent and contract content.
-The module is meant to be used by the legal team of a company and to allow them
-to define sections, clauses and templates with their respective content that can
-be dynamic.
+This module adds an *Agreement* object with the following properties:
 
-Based on the template, an agreement can be created and the pdf document generated.
+* code,
+* name,
+* link to a partner,
+* signature date.
+* start date.
+* end date.
 
-The agreement would go through a workflow to finally become a contract with the
-customer signature.
+Optionally, you can also enable using:
+* agreement types
+* a flag to set an agreement as a template agreement
+
+(Install agreement_sale to get the configuration settings for these).

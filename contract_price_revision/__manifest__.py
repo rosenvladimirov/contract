@@ -1,5 +1,6 @@
-# Copyright 2019 Tecnativa <vicent.cubells@tecnativa.com>
-# License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl).
+# Copyright 2019 Tecnativa - Vicent Cubells
+# Copyright 2019 Tecnativa - Carlos Dauden
+# License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl.html).
 
 {
     'name': 'Contract Price Revision',
@@ -9,13 +10,13 @@
     'author': 'Tecnativa, '
               'Odoo Community Association (OCA)',
     'license': 'AGPL-3',
-    'website': 'https://github.com/OCA/contract',
+    'website': 'https://github.com/rosenvladimirov/contract',
     'depends': [
         'contract',
     ],
     'data': [
-        'wizards/create_revision_line_views.xml',
-        'views/account_analytic_account_views.xml',
+        'views/contract_line.xml',
+        'wizards/contract_price_revision_views.xml',
     ],
     'installable': True,
 }

@@ -1,27 +1,25 @@
-# Copyright (C) 2019 - TODAY, Open Source Integrators
+# © 2017 Akretion (Alexis de Lattre <alexis.delattre@akretion.com>)
 # License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl).
 
 {
-    'name': 'Agreement - Sale',
-    'summary': 'Create an agreement when the sales order is confirmed',
-    'version': '11.0.0.0.1',
+    'name': 'Agreement Sale',
+    'summary': "Agreement on sales",
+    'version': '11.0.1.0.1',
+    'category': 'Contract',
+    'author': 'Akretion, '
+              'Odoo Community Association (OCA)',
+    'website': 'https://github.com/rosenvladimirov/contract',
     'license': 'AGPL-3',
-    'author': 'Open Source Integrators, Odoo Community Association (OCA)',
-    'category': 'Agreement',
-    'website': 'https://github.com/OCA/contract',
     'depends': [
-        'agreement',
-        'sale',
+        'sale_management',
+        'agreement_account',
+        'sale_commercial_partner',
     ],
     'data': [
+        'security/ir.model.access.csv',
         'views/agreement.xml',
-        'views/product.xml',
         'views/sale_order.xml',
-    ],
+        'views/res_config_settings.xml',
+        ],
     'installable': True,
-    'development_status': 'Beta',
-    'maintainers': [
-        'osi-scampbell',
-        'max3903',
-    ],
 }

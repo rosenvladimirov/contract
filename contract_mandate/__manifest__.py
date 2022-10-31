@@ -4,10 +4,10 @@
 {
     'name': 'Contract Mandate',
     'summary': 'Mandate in contracts and their invoices',
-    'version': '11.0.1.0.1',
+    'version': '11.0.1.0.2',
     'author': 'Odoo Community Association (OCA), '
               'Tecnativa',
-    'website': 'https://github.com/OCA/contract',
+    'website': 'https://github.com/rosenvladimirov/contract',
     'depends': [
         'contract_payment_mode',
         'account_banking_mandate',

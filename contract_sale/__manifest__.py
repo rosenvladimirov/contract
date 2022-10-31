@@ -3,21 +3,24 @@
 
 {
     'name': 'Contract from Sale',
-    'version': '11.0.1.0.0',
+    'version': '11.0.3.0.0',
     'category': 'Sales',
     'author': 'Tecnativa, '
               'Odoo Community Association (OCA)',
-    'website': 'https://github.com/OCA/contract',
+    'website': 'https://github.com/rosenvladimirov/contract',
     'depends': [
         'sale',
         'contract',
     ],
     'data': [
         'security/ir.model.access.csv',
-        'security/account_analytic_account_security.xml',
-        'views/account_analytic_account_view.xml',
+        'security/contract_security.xml',
+        'views/abstract_contract_line.xml',
+        'views/contract.xml',
+        'views/contract_line.xml',
+        'views/contract_template.xml',
+        'views/res_partner_view.xml',
     ],
     'license': 'AGPL-3',
     'installable': True,
-    'auto_install': True,
 }

@@ -1,47 +1,23 @@
-# Copyright (C) 2018 - TODAY, Pavlov Media
+# © 2017 Akretion (Alexis de Lattre <alexis.delattre@akretion.com>)
 # License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl).
 
 {
-    'name': 'Agreements',
-    'summary': 'Manage Agreements, LOI and Contracts',
-    'author': 'Pavlov Media, '
-              'Open Source Integrators, '
+    'name': 'Agreement',
+    'summary': "Adds an agreement object",
+    'version': '11.0.1.2.0',
+    'category': 'Contract',
+    'author': 'Akretion, '
+              'Yves Goldberg (Ygol Internetwork), '
               'Odoo Community Association (OCA)',
-    'website': 'https://github.com/OCA/contract',
-    'category': 'Partner',
+    'website': 'https://github.com/rosenvladimirov/contract',
     'license': 'AGPL-3',
-    'version': '11.0.0.1.0',
-    'depends': [
-        'account',
-        'contacts',
-        'mail',
-        'product',
-        'sale_management',
-    ],
+    'depends': ['mail'],
     'data': [
-        'data/ir_sequence.xml',
-        'data/module_category.xml',
-        'data/agreement_stage.xml',
-        'data/agreement_type.xml',
-        'security/res_groups.xml',
         'security/ir.model.access.csv',
-        'report/agreement.xml',
-        'views/res_config_settings.xml',
+        'security/agreement_security.xml',
         'views/agreement.xml',
-        'views/agreement_appendix.xml',
-        'views/agreement_clause.xml',
-        'views/agreement_recital.xml',
-        'views/agreement_section.xml',
-        'views/agreement_serviceprofile.xml',
-        'views/agreement_stages.xml',
         'views/agreement_type.xml',
-        'views/agreement_subtype.xml',
-        'views/agreement_renewaltype.xml',
-        'views/agreement_increasetype.xml',
-        'views/res_partner.xml',
-        'views/menu.xml',
-    ],
-    'application': True,
-    'development_status': 'Beta',
-    'maintainers': ['max3903'],
+        ],
+    'demo': ['demo/demo.xml'],
+    'installable': True,
 }
